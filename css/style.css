@@ -10,6 +10,12 @@ body {
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	text-shadow:1px 1px 0 #FFFFFF;
 	}
+.t3 {
+	color:#8A008C;
+	font-size:30px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-shadow:1px 1px 0 #FFFFFF;
+	}
 .t2 {
 	color:#4D0051;
 	font-size:16px;
@@ -77,9 +83,9 @@ body {
 	background-color:#FFA9FA;
 	margin:0 -40px -56px -40px;
 	border-radius:0 0 7px 7px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-
 
 nav {
   max-width:1064px;
@@ -119,15 +125,6 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-p {
-  line-height: 1.8;
-}
-
-h1 {
-  letter-spacing: 10px;
-  color: #343434;
-  margin: 0;
-}
 small {
   font-style: italic;
   font-weight: 700;
@@ -144,13 +141,13 @@ small:after {
   top: 50%;
   height: 4px;
   width: 2.4em;
-  background: red;
+  background:#A301C4;
   transform: translateY(-50%);
 }
 
 .parent--el {
   width: 100%;
-  max-width: 900px;
+  max-width: 950px;
   margin: auto;
 }
 .parent--el .two--col {
@@ -163,10 +160,10 @@ figure {
 }
 
 .is-item {
-  width: 60%;
+  width: 90%;
 }
 .is-item.has--img {
-  width: 40%;
+  width: 100%;
 }
 
 .the-img {
@@ -184,8 +181,8 @@ figure {
 
 hr {
   margin: 0.5em 0em;
-  height: 4px;
-  background: #eee;
+  height: 2px;
+  background:#DF30DA;
   border: none;
 }
 
